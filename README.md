@@ -26,15 +26,13 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 cal.html
-
+```
 <html lang="en">
   <head>
-    
     <title>Calculator in HTML CSS & JavaScript</title>
     <link rel="stylesheet" href="cal.css" />
   </head>
   <body>
-    
     <div class="container">
       <h1 align="center">SIMPLE CALCULATOR</h1> 
       <input type="text" class="display" />
@@ -155,7 +153,7 @@ const calculate = (btnValue) => {
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
-
+```
 ## OUTPUT:
 
 ![output1](output1.png)
